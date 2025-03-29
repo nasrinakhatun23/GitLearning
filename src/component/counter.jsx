@@ -52,7 +52,7 @@ const Counter = () => {
           <h2>Counter: {count}</h2>
           <button onClick={increment}>+</button>
           <button onClick={decrement}>-</button>
-          <button onClick={reset}>Reset</button>
+          <button onClick={reset}>Reset button</button>
         </div>
       );
     };
