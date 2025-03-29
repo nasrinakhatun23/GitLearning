@@ -49,7 +49,7 @@ const Counter = () => {
     
       return (
         <div className="maindiv">
-          <h2>Counter: {count}</h2>
+          <h2>Counter- {count}</h2>
           <button onClick={increment}>+</button>
           <button onClick={decrement}>-</button>
           <button onClick={reset}>Reset button</button>
